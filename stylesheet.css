@@ -1,0 +1,1481 @@
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+a[href^=tel] { 
+    color: inherit; 
+}
+.container {
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+.developerlink {
+    color: #fff;
+    text-decoration: none;
+}
+.developerlink:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    background-color: rgba(21, 21, 21, 0.9);
+    width: 100vw;
+    z-index: 12;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.ulnavbar {
+    width: 100vw;
+    height: 6vh;
+    text-align: center;
+}
+.linb {
+    display: inline-block;
+    font-size: 4vh;
+    padding: 0 20px 0 20px;
+    transition-duration: 0.2s;
+}
+.linb:hover {
+    transition-duration: 0.1s;
+    transform: scale(1.1,1.1);
+    cursor:pointer;
+}
+.nblinks {
+    text-decoration: none;
+    color: #fffff0;
+    cursor: pointer;
+}
+.nblinks:hover {
+    text-decoration-line: underline;
+    cursor:pointer;
+}
+
+/* Til Top Knap */
+
+.totop {
+    position: fixed;
+    z-index: 11;
+    bottom: 2vh;
+    right: 50px;
+    text-align: center;
+    cursor:pointer;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    transition-duration: 0.1s;
+}
+.totop:hover {
+    opacity: 0.6;
+    transition-duration: 0.1s;
+}
+
+/* Scroll Down */
+
+.scrolldown1 {
+    position: absolute;
+    z-index: 10;
+    bottom: 2vh;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    opacity: 0.7;
+    transition-duration: 0.15s;
+    cursor:pointer;
+}
+.scrolldown2 {
+    position: absolute;
+    z-index: 8;
+    bottom: -98vh;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    opacity: 0.7;
+    transition-duration: 0.15s;
+    cursor:pointer;
+}
+.scrolldown3 {
+    position: absolute;
+    bottom: -198vh;
+    z-index: 10;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    opacity: 0.7;
+    transition-duration: 0.15s;
+    cursor:pointer;
+}
+
+
+.scrolldownbtn:hover {
+    opacity: 0.65;
+    transition-duration: 0.15s;
+}
+
+/* BG Video */
+video { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: url(img/bgimg1.png);
+    background-size: cover;
+    transition: 1s opacity;
+    background-repeat: no-repeat;
+}
+
+/* Page one */
+
+.p1contain {
+    max-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+}
+.logoheader {
+    height: 40vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url(img/nslogo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 200px 180px;
+}
+.headerh1 {
+    text-align: center;
+    max-height: 60vh;
+    height: 60vh;
+    width: 100vw;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.ncolor {
+    color: #e61d25;
+}
+.scolor {
+    color: black;
+}
+.landingh1 {
+    color: #fff;
+    font-size: 5em;
+}
+.landingh2 {
+    font-size: 3em;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+
+/* Page two */
+
+.p2contain {
+    max-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+    background-color: #151515;
+}
+.upperomos {
+    height: 50vh;
+    width: 100vw;
+    background-image: url(img/omosimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2);
+}
+.downomos {
+    height: 50vh;
+    width: 100vw;
+}
+.omosh {
+    padding-top: 100px;
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+.dkmalermestrelogo {
+    width: 30vh;
+    margin-top: 50px;
+    transition-duration: 0.1s;
+}
+.dkmalermestrelogo:hover {
+    opacity: 0.6;
+    transition-duration: 0.1s;
+}
+.services {
+    width: 50vw;
+    height: 100%;
+    display: inline-block;
+    left: 0px;
+    overflow: hidden;
+    z-index: 8;
+}
+.partnere {
+    width: 50vw;
+    height: 100%;
+    display: inline-block;
+    right: 0px;
+    overflow: hidden;
+    z-index: 8;
+}
+.serviceh3 {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+.serviceulist {
+    color: #fff;
+    margin-top: 2vh;
+    font-size: 2em;
+    margin-left: 20%;
+    width: 85%;
+    list-style: none;
+    line-height: 60px;
+}
+.serviceulist li:before {
+    color: #f00;
+    content: '✓ ';
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 100px;
+    padding: 0 4px 0 10px;
+    margin-right: 10px;
+}
+.partnereh4 {
+    color: #fff;
+    text-align: center;
+    font-size: 3em;
+}
+.partnerlogo {
+    min-width: 120px;
+    width: 10vh;
+    margin: 5px 8% 5px 8%;
+    transition-duration: 0.1s;
+}
+.partnerlogo:hover {
+    opacity: 0.4;
+    transition-duration: 0.1s;
+}
+.partnerlogo2 {
+    padding-bottom: 40px;
+}
+.partnerlogo5 {
+    padding-bottom: 14px;
+}
+.partnerlogo6 {
+    padding-bottom: 15px;
+}
+.partnerrow1, .partnerrow2, .partnerrow3 {
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Page three */
+
+.p3contain {
+    background: -moz-linear-gradient(top, rgba(21,21,21,1) 0%, rgba(21,21,21,1) 1%, rgba(21,21,21,0) 12%, rgba(20,20,20,0) 88%, rgba(20,20,20,0.7) 100%);
+    background: -webkit-linear-gradient(top, rgba(21,21,21,1) 0%,rgba(21,21,21,1) 1%,rgba(21,21,21,0) 12%,rgba(20,20,20,0) 88%,rgba(20,20,20,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(21,21,21,1) 0%,rgba(21,21,21,1) 1%,rgba(21,21,21,0) 12%,rgba(20,20,20,0) 88%,rgba(20,20,20,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151515', endColorstr='#b3141414',GradientType=0 );
+    width: 100vw;
+    max-height: 100vh;
+    height: 100vh;
+    text-align: center;
+    overflow-y: hidden;
+}
+.galleriheader {
+    height: 1vh;
+    width: 100%;
+}
+.gallerih1 {
+    margin-top: 60px;
+    font-size: 4em;
+    color: rgba(0, 0, 0, 0.80);
+}
+.galleriimg {
+    border-radius: 4px;
+    width: 20vw;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+/* Page four */
+
+.p4contain {
+    background-image: url(img/PostKasseKontaktBG.png);
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contactheader {
+    height: 2%;
+}
+.contacth1 {
+    margin-top: 4%;
+    font-size: 2.6em;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.contactform {
+    height: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#name {
+    text-align: left;
+    font-size: 1.5em;
+    width: 250px;
+}
+#e_mail {
+    text-align: left;
+    font-size: 1.5em;
+    width: 350px;
+}
+#subject {
+    width: 600px;
+    border-style: groove;
+    border-bottom: 5px;
+    border-right: 5px;
+    border-color: rgba(0, 0, 0, 0.40);
+    border-width: 2px;
+    text-align: left;
+    font-size: 1.5em;
+}
+.submitbuttonform {
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+    transition: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 1.5em;
+}
+.submitbuttonform:hover {
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #151515;
+    height: 10%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+.footeril {
+    display: inline-block;
+}
+.footercenter {
+    margin: 0 5% 0 5%;
+}
+
+/* Style af Login System */ 
+.loginpage {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bgimg1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.logindiv {
+    height: 70vh;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding-top: 20vh;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+}
+.logininstructions {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+    
+}
+.loginboxstyling {
+    font-size: 1.4em;
+    width: 20%;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.submitbuttonstyling {
+    cursor:pointer;   
+}
+.loginboxstyling:hover {
+    opacity: 0.8;
+    background-color: fff;
+}
+.gallerilogin {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* Redirect styling */
+
+.logoutpage {
+    height: 100vh;
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bgimg1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.redirectmessage {
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+    padding-top: 10%;
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+/* styling af loader */
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid #ffffff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* Styling af Galleri */
+
+.galleripage {
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/bgimg1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.gallericontain {
+    height: 85vh;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: auto;
+    padding-top: 5vh;
+    border-radius: 0 0 25px 25px;
+}
+.galleritext {
+    text-align: center;
+}
+.loginbesked {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.logoutbutton {
+    font-size: 1.4em;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.logoutbutton:hover{
+    opacity: 0.6;
+}
+.galleriimages {
+    text-align: center;
+}
+.gallerioverskrift {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.2em;
+    max-width: 100%;
+}
+.galleriimg:hover {
+    opacity: 0.6;
+}
+.gallerisortering {
+    height: 300px;
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+.gallerilogintxt {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.galleriloginbtn {
+    color: #fff;
+}
+.galleriloginbtn:hover{
+    opacity: 0.6;
+}
+.selectimg {
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+.uploadform {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+}
+.inputtest {
+    color: #fff;
+}
+.gallerioverskriftadmin {
+    color: #fff;
+}
+
+/* RESPONSIVE */
+
+/* Laptops */
+
+@media screen and (max-width: 1366px) {
+    video {
+        left: 49.9%;
+    }
+   
+/* Page One Laptop */
+    
+.logoheader {
+    height: 34vh;
+}
+.landingh1 {
+    color: #fff;
+    font-size: 5em;
+}
+.landingh2 {
+    font-size: 2em;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+    
+    /* Page Two Laptop */
+  
+.omosh {
+    padding-top: 60px;
+    font-size: 2.4em;
+}
+.dkmalermestrelogo {
+    width: 34vh;
+    margin-top: 10px;
+}
+.serviceh3 {
+    font-size: 3em;
+}
+.serviceulist {
+    margin-top: 20px;
+    font-size: 1.4em;
+    margin-left: 180px;
+    width: 100%;
+    line-height: 40px;
+}
+.servicespan {
+    margin-left: 35px;
+}
+.serviceulist li:before {
+    border-radius: 100px;
+    padding: 0 4px 0 6px;
+    margin-right: 5px;
+}
+.partnereh4 {
+    font-size: 3em;
+}
+.partnerlogo {
+    min-width: 100px;
+    margin: 0 80px 0 80px;
+}
+.partnerlogo:hover {
+    opacity: 0.4;
+    transition-duration: 0.1s;
+}
+.partnerlogo2 {
+    padding-bottom: 24px;
+}
+.partnerlogo5 {
+    padding-bottom: 24px;
+}
+.partnerlogo6 {
+    padding-bottom: 15px;
+}
+.partnerrow1, .partnerrow2, .partnerrow3 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Galleri Styling */
+    .gallerisortering {
+    height: 230px;
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+}
+
+@media screen and (max-width: 1280px) {
+    video {
+        left: 49.9%;
+    }
+   
+/* Page One Laptop */
+    
+.logoheader {
+    height: 34vh;
+}
+.landingh1 {
+    color: #fff;
+    font-size: 5em;
+}
+.landingh2 {
+    font-size: 2em;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+    
+    /* Page Two Laptop */
+  
+.omosh {
+    padding-top: 60px;
+    font-size: 2.4em;
+}
+.dkmalermestrelogo {
+    width: 34vh;
+    margin-top: 10px;
+}
+.serviceh3 {
+    font-size: 3em;
+}
+.serviceulist {
+    margin-top: 20px;
+    font-size: 1.4em;
+    margin-left: 180px;
+    width: 100%;
+    line-height: 40px;
+}
+.servicespan {
+    margin-left: 35px;
+}
+.serviceulist li:before {
+    border-radius: 100px;
+    padding: 0 4px 0 6px;
+    margin-right: 5px;
+}
+.partnereh4 {
+    font-size: 3em;
+}
+.partnerlogo {
+    min-width: 100px;
+    margin: 0 80px 0 80px;
+}
+.partnerlogo:hover {
+    opacity: 0.4;
+    transition-duration: 0.1s;
+}
+.partnerlogo2 {
+    padding-bottom: 24px;
+}
+.partnerlogo5 {
+    padding-bottom: 24px;
+}
+.partnerlogo6 {
+    padding-bottom: 15px;
+}
+.partnerrow1, .partnerrow2, .partnerrow3 {
+    width: 100%;
+    text-align: center;
+}
+    
+/* Footer */
+.footer {
+    font-size: 1.1em;
+}
+    
+/* Galleri Styling */
+    .gallerisortering {
+    height: 215px;
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+}
+
+/* Disable Video Size */
+
+@media screen and (max-width: 1279px) {
+    
+    /* Video Small Scren */
+    
+    video {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+    .p1contain {
+    background-image: url(img/bgimg1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    }
+}
+
+/* Tablets */
+
+@media screen and (max-width: 1024px) {
+    
+    /* Til Top Knap */
+    
+.totop {
+    visibility: hidden;
+}
+
+/* Scroll Down */
+
+.scrolldown1 {
+    visibility: hidden;
+}
+.scrolldown2 {
+    visibility: hidden;
+}
+.scrolldown3 {
+    visibility: hidden;
+}
+    
+    /* Navbar Phone */
+    
+.ulnavbar {
+    height: 6vh;
+    text-align: center;
+}
+.linb {
+    font-size: 4vh;
+    padding: 0 6px 0 6px;
+}
+
+    /* Page One Phone */
+    
+.logoheader {
+    height: 40vh;
+    background-size: 150px 130px;
+}
+.headerh1 {
+    max-height: 60vh;
+    height: 60vh;
+    width: 100vw;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.landingh1 {
+    color: #fff;
+    font-size: 2.6em;
+}
+.landingh2 {
+    margin-top: 200px;
+    font-size: 1em;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+}
+
+    /* Page Two Phone */
+  
+.downomos {
+    height: 50vh;
+    width: 100vw;
+}
+.omosh {
+    padding-top: 60px;
+    font-size: 1.2em;
+}
+.serviceh3 {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+.serviceulist {
+    margin-top: 20px;
+    font-size: 0.8em;
+    margin-left: 5px;
+    width: 100%;
+    line-height: 30px;
+}
+.servicespan {
+    margin-left: 30px;
+}
+.partnereh4 {
+    margin-top: 20px;
+    font-size: 1.4em;
+    margin-right: 5px;
+    line-height: 30px;
+}
+.partnerlogo {
+    min-width: 60px;
+}
+.partnerlogo2 {
+    padding-bottom: 18px;
+}
+.partnerlogo5 {
+    padding-bottom: 8px;
+}
+.partnerlogo6 {
+    padding-bottom: 8px;
+}
+.partnerrow1, .partnerrow2, .partnerrow3 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Page four */
+.contactform {
+    height: 80%;
+}
+.contactheader {
+    height: 30px;
+}
+.contacth1 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.0);
+}
+#name {
+    font-size: 1.2em;
+    width: 80%;
+}
+#e_mail {
+    font-size: 1.2em;
+    margin-top: 12px;
+    width: 80%;
+}
+#subject {
+    margin-top: -12px;
+    width: 80%;
+    font-size: 1.2em;
+    height: 100px;
+}
+.submitbuttonform {
+    margin-top: 4px;
+    padding: 2px 60px 2px 60px;
+    cursor: pointer;
+    transition: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 1.2em;
+}
+
+/* Footer */
+
+.footer {
+    height: 24%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    font-size: 1.0em;
+    
+}
+.footeril {
+    display: inline-block;
+}
+.footercenter {
+    margin: 0 25% 0 25%;
+}
+
+}
+
+/* Galleri Mindre end Tablets */
+@media screen and (max-width: 1000px) {
+    .gallerioverskrift {
+        font-size: 0em;
+    }
+}
+
+/* Small Phone */
+
+@media screen and (max-width: 700px) {
+    
+    /* Til Top Knap */
+
+.totop {
+    visibility: hidden;
+}
+
+/* Scroll Down */
+
+.scrolldown1 {
+    visibility: hidden;
+}
+.scrolldown2 {
+    visibility: hidden;
+}
+.scrolldown3 {
+    visibility: hidden;
+}
+    
+    /* Navbar Phone */
+    
+.ulnavbar {
+    height: 6vh;
+    text-align: center;
+}
+.linb {
+    font-size: 4vh;
+    padding: 0 6px 0 6px;
+}
+
+    /* Page One Phone */
+    
+.logoheader {
+    height: 32vh;
+    background-size: 180px 165px;
+}
+.headerh1 {
+    text-align: center;
+    max-height: 60vh;
+    height: 60vh;
+    width: 100vw;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.landingh1 {
+    color: #fff;
+    font-size: 4em;
+}
+.landingh2 {
+    font-size: 1.5em;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+}
+
+    /* Page Two Phone */
+  
+.upperomos {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.0);
+}
+.downomos {
+    height: 50vh;
+    width: 100vw;
+}
+.omosh {
+    padding-top: 50px;
+    font-size: 1.8em;
+}
+.dkmalermestrelogo {
+    width: 26vh;
+}
+.serviceh3 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+.serviceulist {
+    margin-top: 20px;
+    font-size: 1em;
+    margin-left: 10px;
+    width: 100%;
+    line-height: 40px;
+}
+.servicespan {
+    margin-left: 35px;
+}
+.serviceulist li:before {
+    border-radius: 100px;
+    padding: 0 2px 0 4px;
+    margin-right: 5px;
+}
+.partnereh4 {
+    margin-top: 20px;
+    font-size: 1.8em;
+    margin-right: 5px;
+}
+.partnerlogo {
+    min-width: 80px;
+    margin: 5px 0 10px 0;
+}
+.partnerlogo:hover {
+    opacity: 0.4;
+    transition-duration: 0.1s;
+}
+.partnerlogo2 {
+    padding-bottom: 24px;
+}
+.partnerlogo5 {
+    padding-bottom: 10px;
+}
+.partnerlogo6 {
+    padding-bottom: 15px;
+}
+.partnerrow1, .partnerrow2, .partnerrow3 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Page four */
+.contactform {
+    height: 80%;
+}
+.contactheader {
+    height: 30px;
+}
+.contacth1 {
+    margin-top: 30px;
+    font-size: 1.5em;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.0);
+}
+#name {
+    font-size: 1.5em;
+    width: 100%;
+}
+#e_mail {
+    font-size: 1.5em;
+    margin-top: 24px;
+    width: 100%;
+}
+#subject {
+    width: 100%;
+}
+.submitbuttonform {
+    margin-top: 16px;
+    padding: 10px 60px 10px 60px;
+    cursor: pointer;
+    transition: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 1.5em;
+}
+.submitbuttonform:hover {
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
+/* Footer */
+
+.footer {
+    height: 20%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+    padding-bottom: 20px;
+    
+}
+.footeril {
+    display: inline-block;
+}
+.footercenter {
+    margin: 0 20% 0 20%;
+}
+        
+/* Galleri Styling */
+    .gallerisortering {
+    height: 150px;
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+    .galleriimg {
+    width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    /* Til Top Knap */
+    
+.totop {
+    visibility: hidden;
+}
+
+/* Scroll Down */
+
+.scrolldown1 {
+    visibility: hidden;
+}
+.scrolldown2 {
+    visibility: hidden;
+}
+.scrolldown3 {
+    visibility: hidden;
+}
+    
+    /* Navbar Phone */
+    
+.ulnavbar {
+    height: 6vh;
+    text-align: center;
+}
+.linb {
+    font-size: 4vh;
+    padding: 0 6px 0 6px;
+}
+
+    /* Page One Phone */
+    
+.logoheader {
+    height: 40vh;
+    background-size: 150px 130px;
+}
+.headerh1 {
+    max-height: 60vh;
+    height: 60vh;
+    width: 100vw;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.landingh1 {
+    color: #fff;
+    font-size: 2.6em;
+}
+.landingh2 {
+    margin-top: 200px;
+    font-size: 1em;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+}
+
+    /* Page Two Phone */
+  
+.downomos {
+    height: 50vh;
+    width: 100vw;
+}
+.omosh {
+    padding-top: 60px;
+    font-size: 1.2em;
+}
+.serviceh3 {
+    margin-top: 20px;
+    font-size: 1.4em;
+}
+.serviceulist {
+    margin-top: 20px;
+    font-size: 0.8em;
+    margin-left: 5px;
+    width: 100%;
+    line-height: 30px;
+}
+.servicespan {
+    margin-left: 30px;
+}
+.partnereh4 {
+    margin-top: 20px;
+    font-size: 1.4em;
+    margin-right: 5px;
+    line-height: 30px;
+}
+.partnerlogo {
+    min-width: 60px;
+}
+.partnerlogo2 {
+    padding-bottom: 18px;
+}
+.partnerlogo5 {
+    padding-bottom: 8px;
+}
+.partnerlogo6 {
+    padding-bottom: 8px;
+}
+.partnerrow1, .partnerrow2, .partnerrow3 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Page four */
+.contactform {
+    height: 80%;
+}
+.contactheader {
+    height: 30px;
+}
+.contacth1 {
+    margin-top: 30px;
+    font-size: 1.2em;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.0);
+}
+#name {
+    font-size: 1.2em;
+    width: 100%;
+}
+#e_mail {
+    font-size: 1.2em;
+    margin-top: 12px;
+    width: 100%;
+}
+#subject {
+    margin-top: -12px;
+    width: 100%;
+    font-size: 1.2em;
+    height: 100px;
+}
+.submitbuttonform {
+    margin-top: 4px;
+    padding: 2px 60px 2px 60px;
+    cursor: pointer;
+    transition: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 1.2em;
+}
+
+/* Footer */
+
+.footer {
+    height: 24%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    font-size: 0.7em;
+    padding-bottom: 0px;
+    
+}
+.footeril {
+    display: inline-block;
+}
+.footercenter {
+    margin: 0 5% 0 5%;
+}
+
+}
+
+/* Landscape Phone */
+
+@media screen and (max-height: 420px) {
+    
+    /* Til Top Knap */
+
+.totop {
+    visibility: hidden;
+}
+
+/* Scroll Down */
+
+.scrolldown1 {
+    visibility: hidden;
+}
+.scrolldown2 {
+    visibility: hidden;
+}
+.scrolldown3 {
+    visibility: hidden;
+}
+    
+    /* Navbar Phone */
+    
+.ulnavbar {
+    height: 12vh;
+    text-align: center;
+}
+.linb {
+    font-size: 8vh;
+    padding: 0 6px 0 6px;
+}
+
+    /* Page One Phone */
+    
+.logoheader {
+    height: 50vh;
+    background-size: 120px 100px;
+}
+.landingh1 {
+    font-size: 2em;
+}
+.landingh2 {
+    font-size: 1em;
+}
+
+    /* Page Two Phone */
+  
+.upperomos {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.0);
+}
+.omosh {
+    padding-top: 40px;
+    font-size: 1.2em;
+}
+.dkmalermestrelogo {
+    width: 26vh;
+}
+.serviceh3 {
+    font-size: 1em;
+    line-height: 0;
+}
+.serviceulist {
+    font-size: 0.6em;
+    margin-left: 10px;
+    width: 100%;
+    line-height: 20px;
+}
+.servicespan {
+    margin-left: 22px;
+}
+.serviceulist li:before {
+    border-radius: 100px;
+    padding: 0 2px 0 4px;
+    margin-right: 5px;
+    border-width: thin;
+}
+.partnereh4 {
+    margin-top: 0;
+    font-size: 1em;
+    margin-right: 5px;
+}
+.partnerlogo {
+    display: inline-block;
+    min-width: 60px;
+    margin: 0 30px 0 30px;
+}
+.partnerlogo:hover {
+    opacity: 0.4;
+    transition-duration: 0.1s;
+}
+.partnerlogo2 {
+    padding-bottom: 8px;
+}
+.partnerlogo5 {
+    padding-bottom: 6px;
+}
+.partnerlogo6 {
+    padding-bottom: 8px;
+}
+.partnerrow1, .partnerrow2, .partnerrow3 {
+    width: 100%;
+    text-align: center;
+}
+
+/* Page four */
+.contactform {
+    height: 90%;
+}
+.contactheader {
+    height: 10px;
+}
+.contacth1 {
+    margin-top: 30px;
+    font-size: 1em;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.0);
+}
+#name {
+    font-size: 0.8em;
+    width: 80%;
+}
+#e_mail {
+    font-size: 0.8em;
+    width: 80%;
+}
+#subject {
+    font-size: 0.8em;
+    height: 55px;
+    width: 80%;
+}
+.submitbuttonform {
+    padding: 2px 16px 2px 16px;
+    cursor: pointer;
+    transition: 0.1s;
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 0.8em;
+}
+.submitbuttonform:hover {
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
+/* Footer */
+
+.footer {
+    height: 10%;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    font-size: 0.6em;
+    
+}
+.footeril {
+    display: inline-block;
+}
+.footercenter {
+    margin: 0 5% 0 5%;
+}
+            
+/* Galleri Styling */
+    .gallerisortering {
+    height: 130px;
+    width: 30%;
+    display: inline-block;
+    overflow: hidden;
+}
+    .galleriimg {
+    width: 80%;
+}
+    .gallerih1 {
+    margin-top: 40px;
+    font-size: 1.5em;
+}
+}
